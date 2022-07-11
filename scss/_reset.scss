@@ -1,0 +1,73 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+div, 
+p {
+    display: block;
+}
+
+header,
+section,
+footer {
+    display: block;
+    width: 100%;
+    padding: 4rem 0;
+}
+
+section {
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+
+
+body {
+    font-family: $font-family-default;
+    font-size: $font-small;
+    color: $color-default;
+}
+
+p {
+    color: $color-03;
+    text-align: center;
+    margin-top: $mt;
+    font-family: monospace;
+    font-size: 1.6rem;
+    
+
+}
+
+h1 {
+    color: $color-03;
+    font-family: "Lucida Console", "Courier New", monospace;;
+    font-size: $font-big;
+    text-align: center;
+}
+
+h2 {
+    color: $color-03;
+    font-size: $font-medium;
+    margin-bottom: $mb;
+}
+
+h3 {
+    color: $color-03;
+    font-size: $font-normal;
+}
+
+header,
+footer {
+    background-color: $bg-color;
+
+}
