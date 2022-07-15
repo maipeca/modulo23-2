@@ -70,7 +70,7 @@ footer {
 .blocks {
   padding: 4rem 0;
 }
-@media only screen and (max-width: 733px) {
+@media only screen and (max-width: 675px) {
   .blocks {
     text-align: center;
   }
@@ -102,6 +102,13 @@ footer {
   margin: 1.5rem auto;
   width: 25%;
 }
+@media only screen and (max-width: 675px) {
+  .blocks__li {
+    display: block;
+    height: auto;
+    width: 50%;
+  }
+}
 .blocks__links:hover {
   background-color: #d6d6d6;
   color: #202020;
@@ -111,11 +118,6 @@ footer {
   display: block;
   height: 200px;
   background-color: #d6d6d6;
-}
-@media only screen and (max-width: 580px) {
-  .blocks__images {
-    height: auto;
-  }
 }
 .blocks__links {
   background-color: #333533;
@@ -129,20 +131,15 @@ footer {
   text-decoration: none;
   word-wrap: break-word;
 }
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 675px) {
   .blocks__links {
-    padding: 1rem;
+    margin-bottom: 7rem;
   }
 }
 .blocks__images--img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-}
-@media only screen and (max-width: 580px) {
-  .blocks__images--img {
-    height: auto;
-  }
 }
 .blocks__paragraph {
   font-size: 1.2rem;
