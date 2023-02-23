@@ -1,0 +1,29 @@
+.cars {
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+   
+
+   
+
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        @media only screen and (max-width: 733px){border-radius: 30%;object-fit: cover;}
+  
+        }
+
+    li {
+        color: $color-04;
+
+        a {
+            background-color: $color-default;
+            @media only screen and (max-width: 733px){font-size: 1.4rem;}
+        
+        }
+    }
+
+
+    
+    
+}
